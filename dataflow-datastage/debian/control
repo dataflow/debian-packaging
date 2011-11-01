@@ -1,4 +1,4 @@
-Source: datastage-dataflow
+Source: dataflow-datastage
 Section: python
 Priority: optional
 Maintainer: DataFlow <jisc.dataflow@gmail.com>
@@ -13,13 +13,24 @@ Homepage: https://github.com/dataflow/DataStage
 XS-Python-Version: >= 2.5
 Uploaders: Alexander Dutton <alexander.dutton@zoo.ox.ac.uk>
 
-Package: datastage-dataflow
+Package: dataflow-datastage
 Architecture: all
 Depends: ${python:Depends},
-         libjs-flot,
-         libjs-jquery,
-         libjs-jquery-ui,
-         libjs-mochikit
+         python-django>=1.3.1,
+         python-django-pam,
+         python-django-conneg,
+         python-django-longliving,
+         python-tz,
+         python-lxml,
+         python-rdflib,
+         python-redis,
+         redis-server
+
+
+#         libjs-flot,
+#         libjs-jquery,
+#         libjs-jquery-ui,
+#         libjs-mochikit
 Description: DataStage allows research groups to manage research data locally,
              which can then be pushed to an institutional data repository.
 
