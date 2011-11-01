@@ -1,0 +1,6 @@
+python-django-conneg (0.4) unstable; urgency=low
+
+  * Initial packaging
+
+ -- Alexander Dutton <alexander.dutton@zoo.ox.ac.uk>  Tue, 1 Nov 2011 14:11:25 +0000
+
