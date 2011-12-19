@@ -1,8 +1,0 @@
-Format-Specification: http://svn.debian.org/wsvn/dep/web/deps/dep5.mdwn?op=file&rev=135
-Name: python-django-conneg
-Maintainer: Alexander Dutton <alexander.dutton@oucs.ox.ac.uk>
-Source: https://github.com/oucs/django-conneg
-
-Copyright: 2010-2011 University of Oxford <infodev@oucs.ox.ac.uk>
-License: BSD
-
