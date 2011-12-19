@@ -1,0 +1,18 @@
+Source: python-django-pam
+Priority: extra
+Maintainer: Alexander Dutton <alexander.dutton@oucs.ox.ac.uk>
+Build-Depends: debhelper (>= 7.0.50~),
+               python-all-dev,
+               python-support
+Standards-Version: 3.8.4
+Section: libs
+Homepage: https://bitbucket.org/maze/django-pam
+
+Package: python-django-pam
+Section: libs
+Architecture: all
+Depends: ${misc:Depends},
+         ${python:Depends},
+         python-django (>= 1.1)
+Description: A simple PAM authentication backend for Django.
+
