@@ -1,11 +1,12 @@
 Source: python-django-pam
+Section: python
 Priority: extra
 Maintainer: Alexander Dutton <alexander.dutton@oucs.ox.ac.uk>
 Build-Depends: debhelper (>= 7.0.50~),
-               python-all-dev,
-               python-support
+               python-all,
+               python-support,
+               python-setuptools
 Standards-Version: 3.8.4
-Section: libs
 Homepage: https://bitbucket.org/maze/django-pam
 
 Package: python-django-pam
