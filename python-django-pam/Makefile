@@ -8,6 +8,8 @@ DJANGO_PAM_VERSION=e6e562b6b50f
 
 all:
 
+clean:
+
 debian-package:
 	[ ! -e original.tar.gz ] && wget https://bitbucket.org/maze/django-pam/get/${DJANGO_PAM_VERSION}.tar.gz -O original.tar.gz || true
 
