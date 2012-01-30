@@ -16,5 +16,5 @@ export DISTUTILS_ARGS=--root=../debian/python-django-pam \
 	dh $@ --with python2
 
 override_dh_auto_install:
-	( cd django-pam ; python setup.py install ${DISTUTILS_ARGS} )
+	( cd original ; python setup.py install ${DISTUTILS_ARGS} )
 
